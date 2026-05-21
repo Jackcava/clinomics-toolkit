@@ -1,7 +1,11 @@
 # Clinomics Toolkit
 
-A lightweight toolkit for preprocessing clinical and molecular datasets for downstream analyses. 
-`clinomics-toolkit` provides small, reusable preprocessing utilities designed to make these datasets easier to clean, validate, normalize, and prepare for analysis.
+A lightweight and modular toolkit for rapid preprocessing of clinical and molecular datasets.
+
+`clinomics-toolkit` is designed as a collection of reusable utilities for cleaning, validating, transforming, and preparing biomedical tabular data for downstream machine learning, statistical analysis, and exploratory workflows.
+
+The project aims to provide simple, composable, and analysis-oriented preprocessing functions that can be easily integrated into research pipelines, prototype analyses, and multi-omics workflows.
+
 
 ## Features
 
