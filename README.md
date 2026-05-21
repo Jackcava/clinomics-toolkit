@@ -1,10 +1,6 @@
 # Clinomics Toolkit
 
-A lightweight toolkit for preprocessing clinical and molecular datasets for downstream analyses.
-
-## Why this project?
-
-Biomedical datasets often combine heterogeneous data sources such as clinical metadata, laboratory measurements, and omics-derived features.  
+A lightweight toolkit for preprocessing clinical and molecular datasets for downstream analyses. 
 `clinomics-toolkit` provides small, reusable preprocessing utilities designed to make these datasets easier to clean, validate, normalize, and prepare for analysis.
 
 ## Features
