@@ -1,0 +1,25 @@
+[project]
+name = "clinomics-toolkit"
+version = "0.1.0"
+description = "A lightweight toolkit for preprocessing clinical and omics-inspired biomedical datasets."
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [
+    { name = "Giacomo Cavalca" }
+]
+license = { text = "MIT" }
+
+dependencies = [
+    "numpy>=1.24",
+    "pandas>=2.0",
+    "scikit-learn>=1.3"
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0",
+    "jupyter>=1.0"
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
